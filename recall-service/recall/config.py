@@ -7,5 +7,8 @@ config = {
     },
     'high_rating': {
         'shuffle_sample': True
+    },
+    'largest': {
+        'shuffle_sample': True
     }
 }

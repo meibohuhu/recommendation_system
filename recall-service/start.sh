@@ -4,7 +4,7 @@ if [ -z "${RECALL_PORT}" ]; then
     export RECALL_PORT=5001
 fi
 if [ -z "${DATASET_PATH}" ]; then
-    export DATASET_PATH='../../data/anime'
+    export DATASET_PATH='../dataset/'
 fi
 
 export FLASK_APP=app

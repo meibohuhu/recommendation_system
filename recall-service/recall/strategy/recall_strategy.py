@@ -2,7 +2,7 @@ from recall.context import Context
 from typing import List
 
 
-class RecallStrategy:
+class RecallStrategy:    ## interface for all strategies
     def name(self):
         pass
 
