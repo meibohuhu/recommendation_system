@@ -10,5 +10,19 @@ config = {
     },
     'largest': {
         'shuffle_sample': True
+    },
+    'deepwalk': {
+        'sample_length': 10,
+        'sample_count': 100 * 1000
+    },
+    'item2vec': {
+        'vector_size': 5,
+        'max_iter': 5,
+        'window_size': 10
+    },
+    'redis': {
+        'host': 'localhost',
+        'port': 6379,
+        'db': 0
     }
 }
